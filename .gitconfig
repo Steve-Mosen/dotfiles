@@ -1,0 +1,10 @@
+[alias]
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[user]
+	email = Steve.Mosen+git@gmail.com
+	name = Steve Mosen
