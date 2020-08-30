@@ -1,3 +1,3 @@
-source .functions
-source .aliases
-source .bash_prompt
+source $HOME/.functions
+source $HOME/.aliases
+source $HOME/.bash_prompt
