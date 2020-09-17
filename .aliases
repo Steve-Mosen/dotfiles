@@ -34,3 +34,5 @@ alias gs='git status '
 # --------------------------------------------------------------------------------
 alias anav="anaconda-navigator"
 alias jn="jupyter notebook"
+
+alias localhost="python -m http.server"
