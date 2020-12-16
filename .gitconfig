@@ -1,10 +1,16 @@
 [alias]
 	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-	co = checkout
 	br = branch
+	co = checkout
 	ci = commit
-	st = status
-	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	cm = commit -m
+	cam = commit -a -m
+	gl = config --global -l
+	ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	last = log -1 HEAD --stat
+	p = push
+	rv = remote -v
+	st = status -sb
 [user]
 	email = Steve.Mosen+github@gmail.com
 	name = Steve Mosen
