@@ -13,3 +13,5 @@
 [user]
 	email = Steve.Mosen+github@gmail.com
 	name = Steve Mosen
+[color]
+	ui = auto
