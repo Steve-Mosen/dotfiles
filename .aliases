@@ -36,3 +36,8 @@ alias anav="anaconda-navigator"
 alias jn="jupyter notebook"
 
 alias localhost="python3 -m http.server"
+
+# --------------------------------------------------------------------------------
+# ffmpeg
+# --------------------------------------------------------------------------------
+alias ffmpeg_concat="ffpmeg -f concat -i clips -c copy clips.mp4"
