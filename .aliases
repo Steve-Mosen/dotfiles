@@ -40,4 +40,4 @@ alias localhost="python3 -m http.server"
 # --------------------------------------------------------------------------------
 # ffmpeg
 # --------------------------------------------------------------------------------
-alias ffmpeg_concat="ffpmeg -f concat -i clips -c copy clips.mp4"
+alias ffmpeg_concat="ffmpeg -f concat -i clips -c copy clips.mp4"
